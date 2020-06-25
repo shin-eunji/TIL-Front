@@ -1,22 +1,12 @@
 import React from "react";
+import MyComponent from "./component/MyComponent";
 
-function App() {
-  const name = "리액트 입니다";
-  const style = {
-    backgroundColor: "black",
-    color: "aqua",
-    fontSize: "48px",
-    fontWeight: "bold",
-    padding: 16,
-  };
+const App = () => {
   return (
-    <div style={style}>
-      {/* {name === "리액트" ? <h1>리액트입니다.</h1> : <h1>리액트 아닙니다.</h1>} */}
-      {/* {name === "리액트" ? <h1>리액트입니다.</h1> : null} */}
-      {name}
-      <input />
+    <div>
+      <MyComponent>리액트</MyComponent>
     </div>
   );
-}
+};
 
 export default App;
