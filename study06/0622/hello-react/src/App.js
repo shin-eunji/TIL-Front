@@ -1,15 +1,13 @@
-import React, { Component } from "react";
-import MyComponent from "./component/MyComponent";
+import React from "react";
+// import MyComponent from "./component/MyComponent";
 
-class App extends Component {
-  render() {
-    const name = "리액트";
-    return (
-      <div>
-        <MyComponent />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      {/* <MyComponent>리액트</MyComponent> */}
+      <h1>Hi~ hello</h1>
+    </div>
+  );
+};
 
 export default App;
