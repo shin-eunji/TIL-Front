@@ -1,11 +1,12 @@
 import React from "react";
-// import MyComponent from "./component/MyComponent";
+import MyComponent from "./component/MyComponent";
 
 const App = () => {
   return (
     <div>
-      {/* <MyComponent>리액트</MyComponent> */}
-      <h1>Hi~ hello</h1>
+      <MyComponent name="React" favoriteNumber={22}>
+        리액트
+      </MyComponent>
     </div>
   );
 };
