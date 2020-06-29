@@ -144,6 +144,6 @@ Today I Leaned...
 
 ### 다시 javascript 공부
 
-> [20200629-자바스크립트와 동작원리]()
+> [20200629-자바스크립트와 동작원리](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch1)
 >
 > []()
