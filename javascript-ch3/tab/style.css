@@ -1,0 +1,23 @@
+.tab_wrap {
+  width: 300px;
+  margin: 0 auto;
+}
+.tab_list_wrap {
+}
+.tab_list {
+  width: 33%;
+  flex-flow: row wrap;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+}
+.tab_list_wrap .active {
+  background: #eee;
+  display: block;
+}
+.tab_container {
+}
+.tab_content {
+  /* display: none; */
+}
