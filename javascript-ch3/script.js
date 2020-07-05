@@ -14,28 +14,42 @@
 
 // console.log(add2(1, 2));
 
-let a = 1;
+// 전역 스코프, 지역 스코프
+// let a = 1;
 
-if (true) {
-  let b = 2;
-  if (true) {
-    let c = 3;
-  }
-}
+// if (true) {
+//   let b = 2;
+//   if (true) {
+//     let c = 3;
+//   }
+// }
 
+// function foo() {
+//   let d = 4;
+
+//   function bar() {
+//     let e = 5;
+//   }
+
+//   bar();
+// }
+// foo();
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// console.log(e);
+
+// 스코프 체인에 의한 함수 검색
 function foo() {
-  let d = 4;
-
-  function bar() {
-    let e = 5;
-  }
-
-  bar();
+  console.log("global function foo");
 }
-foo();
+function bar() {
+  function foo() {
+    console.log("local function foo");
+  }
+  foo();
+}
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
-console.log(e);
+bar();
