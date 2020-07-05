@@ -1,11 +1,9 @@
-let x = 5,
-  result;
-
-result = x++;
-console.log(result, x); // 5 6
-
-result = ++x;
-console.log(result, x); // 7 7
-
-result = x--;
-console.log(result, x); // 7 6
+{
+  let a = 10;
+  {
+    let a = 20;
+    console.log(a); // 20
+  }
+  console.log(a); // 10
+}
+console.log(a); // ReferenceError
