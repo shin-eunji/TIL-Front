@@ -1,6 +1,19 @@
-# TIL
+# :memo Today I Learned
 
-Today I Leaned...
+- 하루하루 공부한 내용을 정리합니다.
+- 조급하지 않고 최선을 다합니다.
+- 기록하는 습관과 정리하는 습관으로 기르도록 합니다.
+
+## 작성 규칙
+
+- 폴더와 파일명은 영문으로 작성합니다.
+- 파일명은 날짜와 카테고리 명으로 작성합니다.
+
+## 분류
+
+- HTML&CSS
+- JavaScript
+- React
 
 ### HTML&CSS
 
@@ -146,4 +159,14 @@ Today I Leaned...
 
 > [20200629-자바스크립트와 동작원리](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch1)
 >
-> []()
+> [20200701-데이터 타입](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch2)
+>
+> [20200702-연산자](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch3)
+>
+> [20200703-제어문](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch3)
+>
+> [20200704-함수](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch4)
+>
+> [20200705-전역변수](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch4)
+>
+> [20200706-블록레벨 스코프](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch5)
