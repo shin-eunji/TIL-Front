@@ -167,6 +167,6 @@
 >
 > [20200704-함수](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0704)
 >
-> [20200705-전역변수/블록레벨스코프](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0705)
+> [20200705-전역변수/블록레벨스코프/this](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0705)
 >
-> [20200706-this](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0706)
+> [20200706-실행컨텍스트](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0706)
