@@ -1,4 +1,4 @@
-# :memo Today I Learned
+# :memo:Today I Learned
 
 - 하루하루 공부한 내용을 정리합니다.
 - 조급하지 않고 최선을 다합니다.
