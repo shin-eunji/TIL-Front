@@ -73,7 +73,7 @@
 
 <br/>
 
-### JavaScript 예습
+### JavaScript 예제
 
 > [20200406-javascript-delete](https://github.com/shin-eunji/vanilla/tree/master/delete)
 >
@@ -157,16 +157,16 @@
 
 ### 다시 javascript 공부
 
-> [20200629-자바스크립트와 동작원리](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch1)
+> [20200629-자바스크립트와 동작원리](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0701)
 >
-> [20200701-데이터 타입](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch2)
+> [20200701-데이터 타입](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0701)
 >
-> [20200702-연산자](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch3)
+> [20200702-연산자](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0702)
 >
-> [20200703-제어문](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch3)
+> [20200703-제어문](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0703)
 >
-> [20200704-함수](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch4)
+> [20200704-함수](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0704)
 >
-> [20200705-전역변수](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch4)
+> [20200705-전역변수/블록레벨스코프](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0705)
 >
-> [20200706-블록레벨 스코프](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-ch5)
+> [20200706-this](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0706)
