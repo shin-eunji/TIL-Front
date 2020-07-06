@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="increase">+</button>
+    <span class="number">0</span>
+    <button class="decrease">-</button>
+
+    <script>
+      const numbers = document.querySelector(".number");
+
+      const counter = (function () {
+        let num = 0;
+
+        function Counter() {
+          Counter.prototype.increase = function () {
+            numbers.textContext = ++num;
+          };
+          Counter.prototype.decrease = function () {
+            if (num <= 0) return;
+            numbers.textContext = --num;
+          };
+
+          return Counter;
+        }
+      })();
+
+      const counter = new Counter();
+
+      document.querySelector(".increase").onclick = counter.increase;
+      document.querySelector(".decrease").onclick = counter.decrease;
+    </script>
+  </body>
+</html>
