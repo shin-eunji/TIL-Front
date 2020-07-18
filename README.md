@@ -178,10 +178,3 @@
 ## 해결하지 못한 문제. stackoverflow
 
 > [git commit Large files detected](https://stackoverflow.com/questions/62949593/git-commit-large-files-detected)
-
-### 해결 방법
-
-<!-- - git-lfs (git lfs install)
-- bfg-repo-cleaner
-- git rm --cached (https://stackoverflow.com/questions/23626478/delete-large-file-git-commit)
-- .gitattributes -->
