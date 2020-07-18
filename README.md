@@ -182,6 +182,6 @@
 ### 해결 방법
 
 - git-lfs (git lfs install)
-- bfg-repo-cleaner
-<!-- - git rm --cached (https://stackoverflow.com/questions/23626478/delete-large-file-git-commit)
+<!-- - bfg-repo-cleaner
+- git rm --cached (https://stackoverflow.com/questions/23626478/delete-large-file-git-commit)
 - .gitattributes -->
