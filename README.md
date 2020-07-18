@@ -179,8 +179,6 @@
 
 > [git commit Large files detected](https://stackoverflow.com/questions/62949593/git-commit-large-files-detected)
 
-7월 16~17일은 이 부분 오류가 발생하여 커밋을 하지 못하고 있습니다. Large file인 video 파일이지만 .gitignore 에 db와 video model을 커밋하지 않게 하였습니다. 오류 발생으로 19일까지 한 번 해결할 예정입니다.
-
 ### 해결 방법
 
 - git-lfs (git lfs install)
