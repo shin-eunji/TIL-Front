@@ -126,3 +126,11 @@ console.log(iterator.next()); // { done: true } value: 0이므로 done: true
 
 for (const a of iterable) console.log(a); // 1, 2, 3
 ```
+
+## 전개 연산자
+
+```
+const a = [1,2]
+// a[Symbol.iterator] = null
+console.log([...a, ...[3,4]]) // [1, 2, 3, 4]
+```
