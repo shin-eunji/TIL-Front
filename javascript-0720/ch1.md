@@ -76,3 +76,26 @@ map // map(3) {"a" => 1, "b" => 2, "c" => 3}
 // size: (...)
 // __proto__: Map
 ```
+
+### Symbol
+
+- 객체의 키로 사용될 수 있습니다.
+
+```
+const arr = [1, 2, 3];
+console.log(arr[Symbol.iterator]);
+for(const a of arr) console.log(a);
+```
+
+## 이터러블/이터레이터 프로토콜
+
+- 이터러블: 이터레이터를 리턴하는 [Symbol.iterator]() 를 가진 값
+- 이터레이터: { value, done } 객체를 리턴하는 next() 를 가진 값
+- 이터러블/이터레이터 프로토콜: 이터러블을 for...of, 전개 연산자 등과 함께 동작하도록한 규약
+
+```
+cosnt map = new Map([['a', 1], ['b', 2], ['c', 3]]);
+for (const a of map.keys()) console.log(a); // a, b, c
+for (const a of map.values()) console.log(a); // 1, 2, 3
+for (const a of map.entries()) console.log(a); // ['a', 1], ['b', 2], ['c', 3]
+```
