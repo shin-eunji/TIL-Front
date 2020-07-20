@@ -99,3 +99,30 @@ for (const a of map.keys()) console.log(a); // a, b, c
 for (const a of map.values()) console.log(a); // 1, 2, 3
 for (const a of map.entries()) console.log(a); // ['a', 1], ['b', 2], ['c', 3]
 ```
+
+- 내장 이터러블: Set, Map, Array 이터러블 이터레이터 for of 동작하여 순회하는지 구현함.
+
+### 사용자 정의 이터러블을 통해 알아보기
+
+- next()
+
+```
+const iterable = {
+    [Symbol.iterator]() {
+        let i = 3;
+        return {
+            next() {
+                return i == 0 ? {done: true} : { value: i--, done: false };
+            }
+        }
+    }
+};
+
+let iterator = iterable[Symbol.iterator]();
+console.log(iterator.next()); // { value: 3, done: false }
+console.log(iterator.next()); // { value: 2, done: false }
+console.log(iterator.next()); // { value: 1, done: false }
+console.log(iterator.next()); // { done: true } value: 0이므로 done: true
+
+for (const a of iterable) console.log(a); // 1, 2, 3
+```
