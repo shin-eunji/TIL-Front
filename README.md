@@ -178,7 +178,3 @@
 ## 함수형 프로그래밍 ES6+
 
 > [20200713-Clone-Youtube](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0720)
-
-## 해결하지 못한 문제. stackoverflow
-
-> [git commit Large files detected](https://stackoverflow.com/questions/62949593/git-commit-large-files-detected)
