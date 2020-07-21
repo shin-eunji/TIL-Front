@@ -177,4 +177,4 @@
 
 ## 함수형 프로그래밍 ES6+
 
-> [20200713-Clone-Youtube](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0720)
+> [20200713-함수형프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0720)
