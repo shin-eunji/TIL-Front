@@ -1,5 +1,7 @@
 const title = document.querySelector("#title");
 
+document.title = "shineunji";
+
 const CLICKED = "clicked";
 
 function handleClick() {
