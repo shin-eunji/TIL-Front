@@ -179,6 +179,6 @@
 
 > [20200713-함수형프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0720)
 >
-> [20200721-함수형프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0720)
+> [20200721-함수형프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0721)
 >
-> [20200722-함수형프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0720)
+> [20200722-함수형프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0722)
