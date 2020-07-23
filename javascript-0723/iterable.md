@@ -62,3 +62,51 @@ const obj = { a: 1, b: 2 };
 
 console.log({ ...obj }); // { a: 1, b: 2 }
 ```
+
+### 이터레이터 (iterator)
+
+- 이터러블의 Symbol.iterator 메소드를 호출하면 이터레이터 프로토콜을 준수한 이터레이터를 반환한다.
+- 이터러블의 Symbol.iterator 메소드가 반환한 이터레이터는 next 메소드를 갖는다.
+
+```
+const array = [1, 2, 3];
+
+const iterator = array[Symbol.iterator]();
+console.log('next' in iterator); // true
+```
+
+- next 메소드는 이터러블의 각 요소를 순회하기 위한 포인터의 역할
+- next 메소드를 호출하면 이터러블을 순차적으로 한 단계씩 순회하며 순회 결과를 나타내는 이터레이터 리절트 객체를 반환한다. (iterator result object)
+
+```
+const array = [1, 2, 3];
+
+const iterator = array[Symbol.iterator]();
+
+console.log(iterator.next()); // { value: 1 , done: false }
+console.log(iterator.next()); // { value: 2 , done: false }
+console.log(iterator.next()); // { value: 3 , done: false }
+console.log(iterator.next()); // { value: undefined , done: true }
+```
+
+## 빌트인 이터러블
+
+이터레이션 프로토콜을 준수한 객체인 빌트인 이터러블을 제공한다.
+
+- Array.prototype[Symbol.iterator]
+- String.prototype[Symbol.iterator]
+- Map.prototype[Symbol.iterator]
+- Set.prototype[Symbol.iterator]
+- TypedArray.prototype[Symbol.iterator]
+- arguments[Symbol.iterator]
+- DOM: NodeList.prototype[Symbol.iterator] / HTMLCollection.prototype[Symbol.iterator]
+
+## for...of 문
+
+```
+// for (변수 선언문 of 이터러블) {...}
+for (const item of [1, 2, 3]) {
+    console.log(item); // 1 2 3
+}
+
+```
