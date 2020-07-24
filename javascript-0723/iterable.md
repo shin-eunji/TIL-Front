@@ -103,10 +103,10 @@ console.log(iterator.next()); // { value: undefined , done: true }
 
 ## for...of 문
 
-```
+````
 // for (변수 선언문 of 이터러블) {...}
 for (const item of [1, 2, 3]) {
     console.log(item); // 1 2 3
 }
 
-```
+````
