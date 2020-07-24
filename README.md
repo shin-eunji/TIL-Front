@@ -177,12 +177,9 @@
 
 ## 함수형 프로그래밍 ES6+
 
-> [20200713-함수형프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0720)
+- 인프런 (함수형 프로그래밍과 JavaScript ES6+)
+- 함수형 자바스크립트 프로그래밍 (유인동 지음)
+
+> 함수형 프로그래밍 공부를 07월 24일부터 07월 31일까지 공부할 예정입니다.
 >
-> [20200721-Clock](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0721)
->
-> [20200722-Todo List](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0722)
->
-> [20200723-Symbol, iterable](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0723)
->
-> [20200724-](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0724)
+> [Functional Javascript]()
