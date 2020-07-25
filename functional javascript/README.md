@@ -55,3 +55,25 @@ for (var i = 0; len = temp_users.length; i < len; i++) {
 console.log(names);
 
 ```
+
+### for에서 filter로, if에서 predicate로
+
+```
+// 기존 코드
+var temp_users = [];
+for (var i = 0, len = users.length; i < len; i++) {
+    if (users[i].age < 28) temp_users.push(users[i]);
+}
+console.log(temp_users.length);
+```
+
+```
+// 바꾼 코드
+function filter(list, predicate) {
+    var new_list = [];
+    for (var i = 0; i < list.length; i < len; i++) {
+        if (predicate(list[i])) new_list.push(list[i]);
+    }
+    return new_list;
+}
+```
