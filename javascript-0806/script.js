@@ -11,11 +11,25 @@
 // }
 
 // 함수
-function multipy(num1, num2) {
-  let result = num1 * num2;
-  return result;
-}
+// function multipy(num1, num2) {
+//   let result = num1 * num2;
+//   return result;
+// }
 
-console.log(multipy(10, 20));
-console.log(multipy(15, 19));
-console.log(multipy(31, 53));
+// console.log(multipy(10, 20));
+// console.log(multipy(15, 19));
+// console.log(multipy(31, 53));
+
+// 이벤트
+// let myHtml = document.querySelector("html");
+// myHtml.onclick = function () {
+// };
+
+// - 클릭 이벤트
+// let btnClick = document.getElementById("btnClick");
+
+// btnClick.addEventListener("click", (e) => {
+//   btnClick.innerHTML = `클릭한 숫자: ${e.detail}`;
+// });
+
+// - mousedown event
