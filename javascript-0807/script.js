@@ -52,7 +52,10 @@ let grades = {
     shin: 3,
   },
   show: function () {
-    alert(this);
+    for (let name in this.list) {
+      console.log(name, this.list[name]);
+    }
+    console.log(this.list); // grades 객체를 가리키는 변수 - grades
   },
 };
-grades["show"]();
+grades.show();
