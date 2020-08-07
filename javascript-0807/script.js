@@ -45,17 +45,18 @@
 //   console.log(key);
 // }
 
-let grades = {
-  list: {
-    kim: 1,
-    lee: 2,
-    shin: 3,
-  },
-  show: function () {
-    for (let name in this.list) {
-      console.log(name, this.list[name]);
-    }
-    console.log(this.list); // grades 객체를 가리키는 변수 - grades
-  },
-};
-grades.show();
+// let grades = {
+
+//   list: {
+//     kim: 1,
+//     lee: 2,
+//     shin: 3,
+//   },
+//   show: function () {
+//     for (let name in this.list) {
+//       console.log(name, this.list[name]);
+//     }
+//     console.log(this.list); // grades 객체를 가리키는 변수 - grades
+//   },
+// };
+// grades.show();
