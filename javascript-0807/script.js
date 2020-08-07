@@ -19,3 +19,11 @@
 // num();
 // num();
 // num();
+
+// let grades = {
+//   kim: 1,
+//   lee: 2,
+//   shin: 3,
+// };
+
+// console.log(grades.kim);
