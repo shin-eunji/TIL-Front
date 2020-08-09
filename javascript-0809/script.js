@@ -11,3 +11,6 @@ var family = {
     return Object.keys(this.members).length;
   },
 };
+family.addFamily(30, "chioe", "aunt");
+family.addFamily(3, "lyn", "niece");
+family.addFamily(10, "dangdangi", "fdaf");
