@@ -8,6 +8,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="script.js"></script>
+    <ul id="list">
+      <li class="text">Hello</li>
+      <li class="text">Hello</li>
+      <li class="text">Hello</li>
+      <li class="text">Hello</li>
+    </ul>
+    <input type="button" value="execute" id="execute" />
+
+    <button onclick="innerTextTest(this)">Click This</button>
+
+    <script type="text/javascript">
+      function innerTextTest(e) {
+        e.innerText = "<strong>click</strong>";
+      }
+    </script>
+    <script type="text/javascript">
+      let list = document.querySelector("#list");
+      let text = list.querySelectorAll("li");
+      let btn = document.querySelector("#execute");
+
+      btn.addEventListener("mouseover", (e) => {
+        alert("Click");
+      });
+
+      //   const mouseOver = (e) => {
+      //     btn.addEventListener("mouseover", mouseOver);
+      //   };
+    </script>
   </body>
 </html>
