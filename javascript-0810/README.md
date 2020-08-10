@@ -52,4 +52,20 @@ ES6 이전에는 변수 하나에 값 하나를 일일히 할당해야 했으나
 - 객체 비구조화 할당: 중괄호{} 안에 속성 이름을 넣어 객체의 여러 속성을 한 번에 가져올 수 있습니다.
 - 배열 비구조화 할당: 대괄호[] 로 여러 값을 한 번에 가져올 수 있습니다.
 
-> [ES6의 향상된 객체 문법 알아보기](./script4.js)
+> [ES6의 향상된 객체 문법 알아보기-비구조화 할당](./script4.js)
+
+## 심볼(Symbol)
+
+Symbol은 함수 호출을 통해 생성 가능합니다. Symbol()
+new 키워드를 통한 호출을 할 경우 에러 발생(new Symbol()은 옳지 않습니다.)
+
+```
+const symbol = Symbol();
+
+Number(3) === Number(3); //true
+Symbol('symbol') === Symbol('symbol'); // false
+Symbol() === Symbol(); // false
+typeof Symbol(); // symbol
+```
+
+> [Symbol](./script5.js)
