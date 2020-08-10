@@ -158,3 +158,7 @@ ExecutionContext = {
     }
 }
 ```
+
+### get,set을 통한 속성 접근
+
+객
