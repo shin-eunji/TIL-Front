@@ -173,13 +173,22 @@
 >
 > [20200707~12-Clone-Chrome](https://github.com/shin-eunji/clone-chrome)
 >
-> [20200713-Clone-Youtube](https://github.com/shin-eunji/clone-youtube)
-
-## 함수형 프로그래밍 ES6+
-
-- 인프런 (함수형 프로그래밍과 JavaScript ES6+)
-- 함수형 자바스크립트 프로그래밍 (유인동 지음)
-
-> 함수형 프로그래밍 공부를 07월 24일부터 07월 31일까지 공부할 예정입니다.
+> [20200720-Clone-Youtube](https://github.com/shin-eunji/clone-youtube)
 >
-> [Functional Javascript]()
+> [20200721-Name](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0721)
+>
+> [20200723-시계 만들기](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0723)
+>
+> [20200723-Symbol](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0723)
+>
+> [20200724-generator](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0724)
+>
+> [20200801-Tab 만들기](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0801)
+>
+> [20200806-그림판 만들기](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0806)
+>
+> [20200807-Event](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0807)
+>
+> [2020070809-객체지향프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0809)
+>
+> [2020070810-객체지향프로그래밍](https://github.com/shin-eunji/TIL-Front/tree/master/javascript-0810)
