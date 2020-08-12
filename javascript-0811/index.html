@@ -6,168 +6,186 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.scss" />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- fontello -->
-    <link rel="stylesheet" href="./fontello/css/fontello.css">
+    <link rel="stylesheet" href="./fontello/css/fontello.css" />
   </head>
   <body>
     <div class="wrap">
-      <!-- Header -->
       <header class="header">
         <div class="header_wrap">
           <h1 class="logo">
-            <a href="#">
-              <img src="" alt="Unsplash" />
-              <div class="">
-                <span class="">Unsplash</span>
-                <span class="">Photos for everyone</span>
-              </div>
+            <a href="#" target="_self">
+              <img src="./logo.png" alt="Unsplash" />
+              <span>
+                <p>Unsplash</p>
+                <p class="sub">Photos for everyone</p>
+              </span>
             </a>
           </h1>
-          <div class="search">
-            <form action="">
-                <p class="icon-search"></p>
-              <input
-                type="text"
-                placeholder="Search free high-resolution photos"
-              />
-            </form>
-          </div>
-          <div class="menu">
-            <ul>
-              <li><a href="#">Topics</a></li>
-              <li><a href="#">Explore</a></li>
-              <li>
-                <ul>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                </ul>
-              </li>
-            </ul>
-            <div class="quick-menu">
-              <p>
-                <a href="#">Submit a photo</a>
-              </p>
-              <p>
-                <a href="#">Login</a>
-                <a href="#">Join Free</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <nav>
-          <h2 class="hidden">Unsplash Menu</h2>
-          <ul>
-            <li><a href="#" target="_self">Editorial</a></li>
-            <li>
-              <a href="#" target="_self">
-                <span>Featured</span>
-                <span>Sustainability</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_self">
-                <span>Featured</span>
-                <span>Film</span>
-              </a>
-            </li>
-            <li><a href="#" target="_self">Wallpapers</a></li>
-            <li><a href="#" target="_self">COVID-19</a></li>
-            <li><a href="#" target="_self">Travel</a></li>
-            <li><a href="#" target="_self">Nature</a></li>
-            <li><a href="#" target="_self">Textures & Patterns</a></li>
-            <li><a href="#" target="_self">Current Events</a></li>
-            <li><a href="#" target="_self">People</a></li>
-            <li><a href="#" target="_self">Business & Work</a></li>
-          </ul>
-          <div><a href="#">View all</a></div>
-        </nav>
-      </header>
-
-      <section class="visual">
-        <div class="inner">
-          <p>Unsplash</p>
-          <p>
-            The internet’s source of
-            <a href="#">freely-usable images</a>
-            Powered by creators everywhere.
-          </p>
-          <form action="">
-            <p class="icon-search"></p>
+          <form class="header_form" action="">
+            <span class="icon-search"></span>
             <input
               type="text"
+              name=""
+              id=""
               placeholder="Search free high-resolution photos"
             />
           </form>
-          <p>Trending:
+          <div class="gnb_wrap">
+            <ul class="gnb_menu">
+              <li><a href="#">Topics</a></li>
+              <li><a href="#">Explore</a></li>
+              <li><a href="#" class="icon-dot-3"></a></li>
+            </ul>
+            <div class="gnb_quick">
+              <button class="btn-white btn">Sumbit a photo</button>
+              <a href="#" class="login left">Login</a>
+              <a href="#" class="btn-mint btn">Join free</a>
+            </div>
+          </div>
+        </div>
+        <nav class="nav">
+          <a class="active" href="#">Editorial</a>
+          <ul class="nav_menu">
+            <li>
+              <a href="#" target="_self">
+                <p>Featured</p>
+                <p class="title">Sustainability</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self">
+                <p>Featured</p>
+                <p class="title">Film</p>
+              </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Wallpapers</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">COVID-19</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Travel</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Nature</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Textures & Patterns</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Current Events</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">People</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Business & Work</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Technology</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Animals</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Interiors</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Architecture</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Textures & Patterns</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Current Events</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">People</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" target="_self">
+                    <p class="title">Business & Work</p>
+                </a>
+            </li>
+          </ul>
+          <a href="#" class="view">View all</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="tilte_wrap">
+          <div class="title">
+            <p>Unsplash</p>
+            <p>
+              The internet’s source of
+              <span><a href="#">freely-usable images.</a></span>
+            </p>
+            <p>Powered by creators everywhere.</p>
+          </div>
+          <form action="">
+            <span class="icon-search"></span>
+            <input type="text" name="" id="" />
+            <div class="tag_wrap">
+              <span>Trending:</span>
               <ul>
-                  <il><a href="#">Flower</a></il>
-                  <il><a href="#">Wallpapers</a></il>
-                  <il><a href="#">Backgrounds</a></il>
-                  <il><a href="#">Happy</a></il>
-                  <il><a href="#">Love</a></il>
+                <li>love</li>
+                <li>happy</li>
+                <li>flower</li>
               </ul>
-          </p>
+            </div>
+          </form>
         </div>
-      </section>
-      <main>
-        <a href="#">
-            <div class="card_wrap">
-            <div><img src="" alt="image"></div>
-            <div class="">
-                <p>Title</p>
-                <p>Designed to be the Best</p>
-                <!-- hover -->
-                <div class="">
-                    <span class="sponsored">sponsored</span>
-                    <a href="" class="icon-heart"></a>
-                    <a href="" class="icon-plus-1"></a>
-                </div>
-                <div class="">
-                    <a href="#" class="icon-down"></a>
-                </div>
-            </div>
+        <div class="link">
+          <span
+            ><a href="#"> Photo of the Day</a>
+            by
+            <a href="#">Ussama Azam</a></span
+          >
+          <span> Read more about the 
+            <a href="#">
+                Unsplash License</a></span
+          ></span>
+          <span>
+              <a href="#">
+                  <img src="" alt="">
+                  All you need to create a website.
+              </a>
+          </span>
         </div>
-        </a>
-        <a href="#" class="card_wrap">
-            <div><img src="" alt="image"></div>
-            <div class="">
-                <p>Title</p>
-                <p>Designed to be the Best</p>
-                <!-- hover -->
-                <div class="">
-                    <span class="sponsored">sponsored</span>
-                    <a href="" class="icon-heart"></a>
-                    <a href="" class="icon-plus-1"></a>
-                </div>
-                <div class="">
-                    <a href="#" class="icon-down"></a>
-                </div>
-            </div>
-            </a>
-            </a>
-        <a href="#">
-            <div class="card_wrap">
-                <div><img src="" alt="image"></div>
-                <div class="">
-                    <p>Title</p>
-                    <p>Designed to be the Best</p>
-                    <!-- hover -->
-                    <div class="">
-                        <span class="sponsored">sponsored</span>
-                        <a href="" class="icon-heart"></a>
-                        <a href="" class="icon-plus-1"></a>
-                    </div>
-                    <div class="">
-                        <a href="#" class="icon-down"></a>
-                    </div>
-                </div>
-            </div>
-        </a>
       </main>
     </div>
 

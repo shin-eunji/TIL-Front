@@ -1,14 +1,237 @@
-.main {
-  display: flex;
-  width: 100%;
-  height: 100%;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean");
+
+/* 공통 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-.card_wrap {
+html,
+body {
+  font-size: 10px;
+  font-family: "Noto Sans KR", "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  color: #2e3035;
+}
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  padding: 0px 10px;
+  z-index: 100;
+}
+.header_wrap {
+  width: 100%;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 300px;
-  height: 300px;
-  background: red;
   justify-content: space-between;
-  align-content: space-around;
+  padding: 20px 0;
+}
+.logo a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+.logo span {
+  color: #111;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+.logo p:last-child {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.header_form {
+  border-radius: 50px;
+  background-color: #eee;
+  margin-left: 20px;
+  flex-grow: 2;
+}
+
+.header_form input {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.5rem;
+  color: #777;
+  font-weight: 400;
+  width: 80%;
+  padding: 10px 0;
+}
+.gnb_wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 1.4rem;
+  color: #777;
+  font-weight: 500;
+}
+.gnb_menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.gnb_menu * {
+  padding: 10px 10px;
+  margin: auto;
+}
+.gnb_menu *:hover {
+  color: #111;
+}
+
+.gnb_quick {
+  margin: auto;
+}
+.gnb_quick * {
+  margin-left: 30px;
+}
+.left {
+  position: relative;
+}
+.left::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background-color: #777;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+.gnb_quick a {
+  text-align: center;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  align-self: center;
+  color: #777;
+}
+.nav > a {
+  width: auto;
+  text-align: center;
+  align-self: center;
+  position: relative;
+  padding: 10px 0;
+}
+.nav > a.active {
+  color: #111;
+}
+.nav > a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #111;
+}
+.nav > a:last-child {
+  width: 100px;
+}
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: calc(100% + 10px);
+  box-sizing: initial;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 0 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.view::before {
+  content: "";
+  position: fixed;
+  top: 70px;
+  right: 100px;
+  width: 200px;
+  height: 65px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+.nav_menu > li {
+  display: flex;
+  width: auto;
+  margin: 0 10px;
+  align-self: flex-end;
+}
+.nav_menu > li a {
+  align-items: center;
+  height: 100%;
+  white-space: nowrap;
+}
+.nav_menu p {
+  color: #999;
+  font-weight: 300;
+  display: block;
+  font-size: 1.2rem;
+}
+.nav_menu .title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: bottom;
+}
+
+/* 메인 */
+.main {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 600px;
+  background-color: #111;
+  z-index: 2;
+}
+
+/* 아이콘 */
+.icon-search {
+  width: 50px;
+  height: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  color: #777;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+/* 버튼 */
+.btn {
+  padding: 7px 10px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+.btn-white {
+  color: #777;
+  background-color: #fff;
+  border: 1px solid #777;
+  margin-right: 30px;
+}
+.btn-white:hover {
+  color: #111;
+  background-color: #fff;
+  border: 1px solid #111;
+}
+.btn-mint {
+  color: #fff;
+  background-color: #3cb46e;
+}
+.btn-mint:hover {
+  background-color: #37a866;
 }

@@ -29,6 +29,12 @@
       "css": "heart",
       "code": 59394,
       "src": "entypo"
+    },
+    {
+      "uid": "d10920db2e79c997c5e783279291970c",
+      "css": "dot-3",
+      "code": 59395,
+      "src": "entypo"
     }
   ]
 }
