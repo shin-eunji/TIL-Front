@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Beautiful Free Images & Pictures | Unsplash</title>
 
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
@@ -37,7 +37,19 @@
             <ul class="gnb_menu">
               <li><a href="#">Topics</a></li>
               <li><a href="#">Explore</a></li>
-              <li><a href="#" class="icon-dot-3"></a></li>
+              <li><a href="#" class="add icon-dot-3" onClick="handleMenu()">
+                  <ul class="sub_menu">
+                      <li>About</li>
+                      <li>Wallpapers</li>
+                      <li>Blog</li>
+                      <li>Collections</li>
+                      <li>Commmunity</li>
+                      <li>History</li>
+                      <li>Made with Unsplash</li>
+                      <li>API/Developers</li>
+                      <li>Official Apps</li>
+                  </ul>
+              </a></li>
             </ul>
             <div class="gnb_quick">
               <button class="btn-white btn">Sumbit a photo</button>
@@ -47,7 +59,7 @@
           </div>
         </div>
         <nav class="nav">
-          <a class="active" href="#">Editorial</a>
+          <a class="active editorial" href="#">Editorial</a>
           <ul class="nav_menu">
             <li>
               <a href="#" target="_self">
@@ -147,24 +159,26 @@
       </header>
 
       <main class="main">
-        <div class="tilte_wrap">
-          <div class="title">
-            <p>Unsplash</p>
-            <p>
-              The internet’s source of
-              <span><a href="#">freely-usable images.</a></span>
-            </p>
-            <p>Powered by creators everywhere.</p>
+        <div class="container">
+          <div class="title_wrap">
+            <p class="title">Unsplash</p>
+            <div class="text">
+                <p>
+                The internet’s source of
+                <span><a href="#">freely-usable images</a></span>.
+                </p>
+                <p>Powered by creators everywhere.</p>
+            </div>
           </div>
           <form action="">
             <span class="icon-search"></span>
-            <input type="text" name="" id="" />
+            <input type="text" name="" id="" placeholder="Search free high-resolution photos" />
             <div class="tag_wrap">
               <span>Trending:</span>
               <ul>
-                <li>love</li>
-                <li>happy</li>
-                <li>flower</li>
+                <li><a href="#">love</a></li>
+                <li><a href="#">happy</a></li>
+                <li><a href="#">flower</a></li>
               </ul>
             </div>
           </form>
@@ -187,8 +201,218 @@
           </span>
         </div>
       </main>
+
+      <div class="card_wrap">
+        <div class="container grid js-masonry">
+            <div class="image grid-item">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1591880856710-a812170a5795?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80" alt="image">
+            </div>
+            <div class="image grid-item">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" alt="image">
+            </div>
+            <div class="image grid-item">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1597091361793-3149a9777210?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="image">
+            </div>
+            <div class="image grid-item">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1597098495323-fc5d2ac74f75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="image">
+            </div>
+            <div class="image grid-item">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1597158393857-a8b308843f8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="image">
+            </div>
+            <div class="image grid-item">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1597154428104-e41123d044c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="image">
+            </div>
+            <div class="image grid-item">
+                <div id="user Info" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1597091361793-3149a9777210?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="image">
+            </div>
+            <div class="image">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1597094662420-0928ddfa4784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2248&q=80" alt="image">
+            </div>
+            <div class="image">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1597164862553-017b7f2b4d0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="image">
+            </div>
+            <div class="image">
+                <div id="userInfo" class="info">
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                    </div>
+                    <div class="sponsored">
+                        <img src="./logo.png" alt="company">
+                        <div class="company_title">
+                            <p>XPS</p>
+                            <p>Designed to be the Best</p>
+                        </div>
+                    </div>
+                </div>
+                <img id="imgContent" src="https://images.unsplash.com/photo-1596571240856-24727bfee04d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="image">
+            </div>
+        </div>
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <!-- Popup -->
+    <div class="popup_wrap show">
+        <div class="container">
+            <div class="">
+                <div class="pop_header">
+                    <div class="">
+                        <div class="sponsored">
+                            <img src="./logo.png" alt="company">
+                            <div class="company_title">
+                                <p>XPS</p>
+                                <p>Designed to be the Best</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-menu">
+                        <button class="icon-heart"></button>
+                        <button class="icon-plus-1"></button>
+                        <a href="#" class="btn-mint btn">Download free</a>
+                    </div>
+                </div>
+                <!-- <div class="container">
+                    <div class="image fade">
+                        <img src="./images/2.jpg" alt="image">
+                    </div>
+                    <div class="image fade">
+                        <img src="./images/3.jpg" alt="image">
+                    </div>
+                    <div class="image fade">
+                        <img src="./images/4.jpg" alt="image">
+                    </div>
+                    <div class="image fade">
+                        <img src="./images/5.jpg" alt="image">
+                    </div>
+                    <div class="image fade">
+                        <img src="./images/6.jpg" alt="image">
+                    </div>
+                    <a class="prev" href="#" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" href="#" onclick="plusSlides(1)">&#10095;</a>
+                </div> -->
+            </div>
+        </div>
+        <a class="close icon-cancel" href="#"></a>
+    </div>
+</div>
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>

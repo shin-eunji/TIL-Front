@@ -35,6 +35,12 @@
       "css": "dot-3",
       "code": 59395,
       "src": "entypo"
+    },
+    {
+      "uid": "c709da589c923ba3c2ad48d9fc563e93",
+      "css": "cancel",
+      "code": 59397,
+      "src": "entypo"
     }
   ]
 }
