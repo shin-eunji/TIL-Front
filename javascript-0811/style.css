@@ -377,7 +377,7 @@ body {
 }
 /* popup */
 .show {
-  display: block;
+  display: none;
 }
 .popup_wrap {
   position: absolute;
@@ -389,12 +389,12 @@ body {
   z-index: 101;
 }
 .popup_wrap .container {
+  position: relative;
   width: 90%;
-  margin: 0 auto;
-  background-color: #fff;
   height: 100%;
-  /* margin-top: 30px; */
+  background-color: #fff;
   border-radius: 5px;
+  margin: 0 auto;
 }
 .pop_header {
   display: flex;
@@ -432,7 +432,7 @@ body {
   font-size: 1.2rem;
 }
 .popup_wrap .container .image img {
-  height: 800px;
+  height: 90vh;
   width: auto;
   margin: 0 auto;
   display: block;
@@ -443,6 +443,15 @@ body {
 }
 .popup_wrap button:hover {
   border: 1px solid #111;
+}
+
+.btn-info {
+  position: absolute;
+  z-index: 200;
+  right: 10px;
+}
+.btn-info .btn-white {
+  margin-right: 0;
 }
 
 /* 아이콘 */
@@ -465,7 +474,7 @@ body {
 .prev {
   font-size: 3rem;
   color: #fff;
-  position: absolute;
+  position: fixed;
   top: 300px;
   left: 30px;
   cursor: pointer;
@@ -473,7 +482,7 @@ body {
 .next {
   font-size: 3rem;
   color: #fff;
-  position: absolute;
+  position: fixed;
   top: 300px;
   right: 30px;
   cursor: pointer;
